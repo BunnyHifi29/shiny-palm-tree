@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOGVGqcTqc6cK4Yq10bVx7f",
+      "authorship_tag": "ABX9TyMN1xhcQ0+ttH8YdselKDVZ",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,17 +28,35 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 2,
+      "execution_count": 5,
       "metadata": {
-        "id": "mV295ZmHAJKT"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mV295ZmHAJKT",
+        "outputId": "0afb59a9-bffc-4fc1-aa90-2bf6d4bb72fc"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{101: 'lisa 1', 102: 'jennie 5', 103: 'jisoo 7'}\n",
+            "<class 'dict'>\n"
+          ]
+        }
+      ],
       "source": [
+        "BlackPinkmembers = {}\n",
+        "\n",
         "# Frequency Table\n",
-        "# lisa 1\n",
-        "# jennie 5\n",
-        "# rosé 4\n",
-        "# jisoo 7"
+        "BlackPinkmembers[101] = \"lisa 1\"\n",
+        "BlackPinkmembers[102] = \"jennie 5\"\n",
+        "BlackPinkmembers[103] = \"rosé 4\"\n",
+        "BlackPinkmembers[103] = \"jisoo 7\"\n",
+        "\n",
+        "print(BlackPinkmembers)\n",
+        "print(type(BlackPinkmembers))"
       ]
     }
   ]
