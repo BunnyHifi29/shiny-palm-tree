@@ -1,0 +1,45 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOGVGqcTqc6cK4Yq10bVx7f",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/BunnyHifi29/shiny-palm-tree/blob/main/input.txt\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "mV295ZmHAJKT"
+      },
+      "outputs": [],
+      "source": [
+        "# Frequency Table\n",
+        "# lisa 1\n",
+        "# jennie 5\n",
+        "# rosé 4\n",
+        "# jisoo 7"
+      ]
+    }
+  ]
+}
