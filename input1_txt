@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMN1xhcQ0+ttH8YdselKDVZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/BunnyHifi29/shiny-palm-tree/blob/main/input1_txt\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mV295ZmHAJKT",
+        "outputId": "0afb59a9-bffc-4fc1-aa90-2bf6d4bb72fc"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{101: 'lisa 1', 102: 'jennie 5', 103: 'jisoo 7'}\n",
+            "<class 'dict'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "BlackPinkmembers = {}\n",
+        "\n",
+        "# Frequency Table\n",
+        "BlackPinkmembers[101] = \"lisa 1\"\n",
+        "BlackPinkmembers[102] = \"jennie 5\"\n",
+        "BlackPinkmembers[103] = \"rosé 4\"\n",
+        "BlackPinkmembers[103] = \"jisoo 7\"\n",
+        "\n",
+        "print(BlackPinkmembers)\n",
+        "print(type(BlackPinkmembers))"
+      ]
+    }
+  ]
+}
